@@ -292,12 +292,16 @@ button.cs-toggler {
     font-size: 16px;
 }
 
-.container2{
+.container2 {
     display: flex;
     justify-content: center;
-    align-items: center; 
-    margin-left: 100px;
-    margin-top: 25px;
+    align-items: center;
+    margin: 25px auto; /* margin secara otomatis di tengah */
+    width: 150%; /* atau gunakan width yang fleksibel sesuai kebutuhan */
+    max-width: 1200px; /* batas lebar maksimal */
+    padding: 10px;
+    box-sizing: border-box;
+
 }
 
 i {
@@ -458,12 +462,9 @@ i {
         font-size: 16px;
     }
 
-    .container2{
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        margin-left: 160px;
-        margin-top: 25px;
+    .container2 {
+        width: 100%; /* Buat elemen menyesuaikan layar lebih kecil */
+        margin-top: 15px;
     }
     
     i {
@@ -530,12 +531,9 @@ i {
         font-size: 16px;
     }
 
-    .container2{
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        margin-left: 160px;
-        margin-top: 25px;
+    .container2 {
+        width: 100%; /* Buat elemen menyesuaikan layar lebih kecil */
+        margin-top: 15px;
     }
     
     i {
