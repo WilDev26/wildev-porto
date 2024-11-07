@@ -1,0 +1,546 @@
+body {
+    background-color: #053B50;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+svg {
+    margin-top: -1px;
+    display: block;
+}
+
+.navbar {
+    background-color: black;
+    font-size: 16px;
+    font-family: 'Archivo', sans-serif;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.582);
+    background: transparent;
+    backdrop-filter: blur(8px);
+}
+
+.navbar-nav .nav-link {
+    color: #64CCC5 !important;
+}
+/*
+nav.navbar-putih {
+    background-color: black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.582);
+    transition: all 0.5s;
+}
+*/
+.navbar-brand {
+    color: black;
+    transition: all 0.5s;
+}
+
+.navbar-brand:hover {
+    color: #64CCC5;
+    font-weight: bold;
+}
+
+.navbar-brand strong:hover{
+    color: black;
+    transition: all 0.5s;
+}
+
+.nav-link {
+    position: relative;
+    transition: all 0.5s;
+}
+
+.nav-link::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+
+.navbar-brand strong {
+    color: #64CCC5;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+.button-navbar {
+    color: #64CCC5 !important;
+    transition: all 0.5s;
+}
+
+.button-navbar:hover {
+    color: #fff !important;
+}
+
+.btn-project {
+    background-color: #64CCC5;
+    color: black;
+    border-color: #64CCC5;
+    transition: all 0.2s;
+    font-size: 18px;
+}
+
+.btn-project:hover {
+    color: #64CCC5;
+    background-color: transparent;
+    border-color: #64CCC5;
+}
+
+.home {
+    padding-top: 85px;
+}
+
+.home strong {
+    color: #64CCC5;
+}
+
+
+.gmbr img {
+    padding-top: 85px;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(0%);
+}
+
+.gmbr:hover img {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.home h1 {
+    font-family: 'Archivo', sans-serif;
+    color: #ffff;
+    font-size: x-small;
+}
+
+.home p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+p.penulis {
+    color: #fff;
+    text-align: justify;
+}
+
+i.tulis {
+    font-size: 18px;
+}
+
+p.kenal {
+    text-align: justify;
+}
+
+button.cs-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #053B50;
+}
+
+.progress {
+    height: 1.5rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #053B50;
+    transition: width 0.6s ease;
+}
+
+.awal {
+    padding-bottom: 60px;
+}
+
+.kedua {
+    padding-bottom: 65px;
+    padding-top: 65px;
+    background-color: #fff;
+}
+
+.kedua h1 {
+    font-family: 'Archivo', sans-serif;
+}
+
+.kedua p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.code p i  {
+    font-size: 22px;
+}
+
+.ketiga {
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+
+.ketiga h1 {
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+}
+
+.ketiga p {
+    color: #64CCC5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.card-title1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    color: #053B50 !important;
+}
+
+.card-text1 {
+    text-align: justify;
+    color: black !important;
+}
+
+.btn-project3 {
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.btn-project3:hover {
+    color: #ffff;
+    background-color: transparent;
+    border-color: #ffff;
+}
+
+.btn-project3b {
+    background-color: #64CCC5;
+    color: black;
+    border-color: #64CCC5;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.btn-project3b:hover {
+    color: #64CCC5;
+    background-color: transparent;
+    border-color: #64CCC5;
+}
+
+.btn-project3a {
+    color: #ffff;
+    background-color: transparent;
+    border-color: #ffff;
+    transition: all 0.5s;
+}
+
+.btn-project3a:hover {
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+    font-size: 20px;
+}
+
+.keempat {
+    background-color: #fff;
+    padding: 30px;
+    border-color: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.contac h5 {
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+
+.insta {
+    font-size: 24px;
+    cursor: pointer;
+}
+.whats {
+    font-size: 24px;
+    cursor: pointer;
+}
+.github {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.linkedin {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.signature {
+    font-size: 16px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+i {
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 360px) {
+    .home p {
+        text-align: center;
+    }
+
+    .home h1 {
+        text-align: justify;
+        color: #fff;
+    }
+
+    p.penulis {
+        color: #fff;
+        text-align: center;
+    }
+    
+    p.kenal {
+        text-align: justify;
+    }
+
+    .srt img {
+        height: 650px;
+        width: 850px;
+    }
+    
+    .btn-project3 {
+        background-color: #fff;
+        color: black;
+        border-color: #fff;
+        font-size: 18px;
+    }
+    
+    .btn-project3:hover {
+        color: #ffff;
+        background-color: transparent;
+        border-color: #ffff;
+        font-size: 18px;
+    }
+    
+    .btn-project3a {
+        color: #ffff;
+        background-color: transparent;
+        border-color: #ffff;
+        font-size: 18px;
+    }
+    
+    .btn-project3a:hover {
+        background-color: #fff;
+        color: black;
+        border-color: #fff;
+        font-size: 18px;
+    }
+
+    .contac h5 {
+        padding-top: 25px;
+        padding-bottom: 12px;
+    }
+    
+    .insta {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .whats {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .github {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .linkedin {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .signature {
+        font-size: 16px;
+    }
+
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-left: 190px;
+        margin-top: 25px;
+    }
+    
+    i {
+        font-size: 35px;
+        margin-top: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .navbar-nav {
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+        font-family: 'Archivo', sans-serif;
+    }
+
+    .home p {
+        text-align: center;
+    }
+
+    .home h1 {
+        text-align: center;
+        color: #fff;
+    }
+
+    p.penulis {
+        color: #fff;
+        text-align: center;
+    }
+
+    p.kenal {
+        text-align: justify;
+    }
+    
+    .srt img {
+        height: 450px;
+        width: 450px;
+    }
+    
+    .contac h5 {
+        padding-top: 25px;
+        padding-bottom: 12px;
+    }
+    
+    .insta {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .whats {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .github {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .linkedin {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .signature {
+        font-size: 16px;
+    }
+
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-left: 190px;
+        margin-top: 25px;
+    }
+    
+    i {
+        font-size: 35px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+        font-family: 'Archivo', sans-serif;
+    }
+
+    .home p {
+        text-align: center;
+    }
+
+    .home h1 {
+        text-align: center;
+        color: #fff;
+    }
+
+    p.penulis {
+        color: #fff;
+        text-align: center;
+    }
+
+    p.kenal {
+        text-align: justify;
+    }
+    
+    .srt img {
+        height: 450px;
+        width: 450px;
+    }
+    
+    .contac h5 {
+        padding-top: 25px;
+        padding-bottom: 12px;
+    }
+    
+    .insta {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .whats {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .github {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .linkedin {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .signature {
+        font-size: 16px;
+    }
+
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-left: 190px;
+        margin-top: 25px;
+    }
+    
+    i {
+        font-size: 35px;
+        margin-top: 12px;
+    }
+
+}
