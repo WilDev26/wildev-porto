@@ -80,6 +80,10 @@ nav.navbar-putih {
     color: #fff !important;
 }
 
+.button-navbar {
+    font-size: 14px
+}
+
 .btn-project {
     background-color: #64CCC5;
     color: black;
