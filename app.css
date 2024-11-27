@@ -213,6 +213,10 @@ button.cs-toggler {
     font-size: 16px;
 }
 
+.ketiga li:hover{
+    color: #ddd;
+}
+
 .ketiga a{
     color: inherit;
     text-decoration: none;
